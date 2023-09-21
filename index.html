@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>高一12班班级热搜榜</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="top.css">
+        <link rel="stylesheet" href="bottom.css">
+        <link rel="stylesheet" href="BG.css">
+        <script type="text/javascript" src="jquery.js"></script>
+    </head>
+    <body id="BG">
+        <div id="top">
+            <div id="TFMS_png"></div>
+            <div id="title_zh">高一 12班 : 班级热搜榜</div>
+            <div id="title_en">TFMS Grade 1 Class 12’s Searching Rank</div>
+        </div>
+        <div id="body">
+            <div id="left">
+                <div id="left-title">工具栏</div>
+                <br>
+                <div id="append1" class="tools">添加内容</div>
+                <div id="delete1" class="tools">删除内容</div>
+            </div>
+            <div id="right">
+                <div id="right-title">班级热搜榜</div>
+                <div id="rank"></div>
+            </div>
+            <div id="homework">
+                <div id="homework-title">今日作业</div>
+            </div>
+        </div>
+        <div id="bottom_texts">
+            高一12班朱家翔设计并制作  高一2班张恩浩协助
+        </div>
+        <!--添加/删除框-->
+        <div id="tta" class="tt">
+            <div id="ttTitle">添加内容</div>
+            <br>
+            <div>请选择内容所属区域</div>
+            <select name="ChooseDiplayArea" id="ttC">
+                <option id="ttCR">热搜榜</option>
+                <option id="ttCC">作业</option>
+            </select>
+           <div id="tt-text">请输入添加的内容</div>
+            <input id="ttText" type="text">
+            <br>
+            <div id="ttSave">确认</div>
+        </div>
+        <!--删除提示框(暂时懒得做)-->
+        <script src="index.js" type="text/javascript"></script>
+    </body>
+</html>
