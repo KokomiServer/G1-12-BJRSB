@@ -6,7 +6,36 @@ a{
     text-decoration:none;
     color:#000000;
 }
-
+/* 启动 */
+#StatImage{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index:10000;
+    zoom: 1;
+    background-color: #EEEEEE;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    background-image:url('genshin.png');
+    animation:start 10s ease 1;
+}
+@keyframes start{
+    0%{
+        opacity:0;
+    }
+    25%{
+        opacity:1;
+    }
+    75%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+    }
+}
 /* 顶部悬浮框 */
 #TFMS_png{
     position:fixed;
