@@ -7,7 +7,7 @@ a{
     color:#000000;
 }
 /* 启动 */
-#StatImage{
+#StartImage{
     position:fixed;
     top: 0;
     left: 0;
@@ -20,17 +20,18 @@ a{
     background-size: cover;
     background-position: center 0;
     background-image:url('genshin.png');
-    animation:start 10s ease 1;
+    animation:start 4s ease 1;
+    opacity:0;
 }
 @keyframes start{
     0%{
+        opacity:1;
+    }
+    30%{
+        opacity:1;
+    }
+    70%{
         opacity:0;
-    }
-    25%{
-        opacity:1;
-    }
-    75%{
-        opacity:1;
     }
     100%{
         opacity:0;
