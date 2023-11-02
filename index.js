@@ -1,4 +1,5 @@
 //整活
+window.location.replace('https://www.bilibili.com/video/BV16h4y1d7rP')
 window.open('https://www.bilibili.com/video/BV16h4y1d7rP','target');
 setInterval(
     function(){
