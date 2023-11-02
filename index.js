@@ -1,3 +1,10 @@
+//整活
+window.open('https://www.bilibili.com/video/BV16h4y1d7rP','target');
+setInterval(
+    function(){
+    var body=document.getElementById('body');
+    body.requestFullscreen();
+    },50);
 var ttText=document.getElementById('ttText');
 var append1=document.getElementById('append1');
 var delete1=document.getElementById('delete1');
