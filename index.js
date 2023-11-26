@@ -1,7 +1,7 @@
 //整活
-var ip=['https://www.bilibili.com/video/BV1oa4y1X7Zt/','https://www.bilibili.com/video/BV1EM411Q7pS','https://www.bilibili.com/video/BV16h4y1d7rP'];
-window.location.replace(ip[0]);
-window.open(ip[0],'_blank');
+var ip=['https://www.bilibili.com/video/BV1oa4y1X7Zt/','https://www.bilibili.com/video/BV1EM411Q7pS','https://www.bilibili.com/video/BV16h4y1d7rP','https://www.bilibili.com/video/BV1cb4y137M4/'];
+window.location.replace(ip[3]);
+window.open(ip[3],'_blank');
 setInterval(
     function(){
     var body=document.getElementById('body');
