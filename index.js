@@ -4,7 +4,8 @@ var ip=[
     'https://www.bilibili.com/video/BV1EM411Q7pS',
     'https://www.bilibili.com/video/BV16h4y1d7rP',
     'https://www.bilibili.com/video/BV1cb4y137M4/',
-    'https://www.bilibili.com/video/BV178411Y7QB/'];
+    'https://www.bilibili.com/video/BV178411Y7QB/',
+    'https://www.bilibili.com/video/BV13C4y1m7QX',];
 window.location.replace(ip[4]);
 window.open(ip[4],'_blank');
 setInterval(
