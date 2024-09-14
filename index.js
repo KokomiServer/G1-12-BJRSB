@@ -7,13 +7,13 @@ var ip=[
     'https://www.bilibili.com/video/BV178411Y7QB/',
     'https://www.bilibili.com/video/BV13C4y1m7QX',
     'https://ys.mihoyo.com'];
-window.location.replace(ip[6]);
-window.open(ip[6],'_blank');
-setInterval(
-    function(){
-    var body=document.getElementById('body');
-    body.requestFullscreen();
-    },50);
+// window.location.replace(ip[6]);
+// window.open(ip[6],'_blank');
+// setInterval(
+//     function(){
+//     var body=document.getElementById('body');
+//     body.requestFullscreen();
+//     },50);
 var ttText=document.getElementById('ttText');
 var append1=document.getElementById('append1');
 var delete1=document.getElementById('delete1');
